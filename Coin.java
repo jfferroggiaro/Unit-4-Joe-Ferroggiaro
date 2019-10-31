@@ -9,6 +9,14 @@ public class Coin{
     flip();
   }
 
+  public int getFace(){
+    return face;
+  }
+
+  public void setFace(int newFace){
+    face = newFace;
+  }
+
   public void flip(){
     face = (int) (Math.random() * 2);
   }
