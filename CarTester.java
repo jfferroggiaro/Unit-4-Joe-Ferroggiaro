@@ -5,9 +5,9 @@ public class CarTester{
     Scanner scan = new Scanner(System.in);
     System.out.println("Welcome to Car Simulator!");
     System.out.println("What make is your car?");
-    String make = scan.nextLn();
+    String make = scan.nextLine();
     System.out.println("What model is your car?");
-    String model = scan.nextLn();
+    String model = scan.nextLine();
     System.out.println("What is the MPG? (one decimal)");
     double mpg = scan.nextDouble();
     System.out.println("What is the tank size? (one decimal)");

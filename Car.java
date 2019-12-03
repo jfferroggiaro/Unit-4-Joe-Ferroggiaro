@@ -25,15 +25,16 @@ public class Car{
     }
   }
 
-  public refuel(double gal){
-    String result = "";
+  public String refuel(double gal){
+    String refResult = "";
     if(fuel + gal <= tank){
       fuel += gal;
-      result = (gal + "gallons added. " + fuel + "/" +  tank + "gallons.")
+      refResult = (gal + "gallons added. " + fuel + "/" +  tank + "gallons.");
     } else {
       fuel = tank;
-      result = ("tank is full")
+      refResult = ("tank is full");
     }
+    return refResult;
   }
 
   public String toString(){
