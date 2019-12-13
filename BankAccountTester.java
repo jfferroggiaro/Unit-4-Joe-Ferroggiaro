@@ -10,6 +10,10 @@ public class BankAccountTester {
         String newPin = scan.nextLine();
         BankAccount acc1 = new BankAccount(newName, newPin, 100.0);
 
+        System.out.println("Welcome " + acc1.getName() + "\nAccount Statement:\n" + acc1);
+        System.out.println("Enter an amount to change");
+
+
 
     }
 }

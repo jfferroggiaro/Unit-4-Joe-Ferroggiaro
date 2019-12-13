@@ -9,6 +9,10 @@ public class BankAccount {
         bal = accBal;
     }
 
+    public String getName() {
+        return name;
+    }
+
     public double getBal() {
         return bal;
     }

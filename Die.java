@@ -2,7 +2,7 @@ public class Die {
     private int side;
 
     public Die(){
-        roll();
+        side = 1;
     }
 
     public int getSide() {
